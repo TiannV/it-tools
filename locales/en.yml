@@ -8,6 +8,7 @@ home:
   home: Home
   uiLib: 'UI Lib'
   support: 'Support IT-Tools development'
+  register: 'site register'
   buyMeACoffee: 'Buy me a coffee'
   follow:
     title: 'You like it-tools?'

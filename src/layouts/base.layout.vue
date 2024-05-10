@@ -120,17 +120,17 @@ const tools = computed<ToolCategory[]>(() => [
           <NavbarButtons v-if="!styleStore.isSmallScreen" />
         </div>
 
-        <c-tooltip position="bottom" :tooltip="$t('home.support')">
+        <c-tooltip position="bottom" >
           <c-button
             round
-            href="https://www.buymeacoffee.com/cthmsst"
+            href="https://cloud.memfiredb.com/auth/login?from=1HdvKv"
             rel="noopener"
             target="_blank"
             class="support-button"
             :bordered="false"
             @click="() => tracker.trackEvent({ eventName: 'Support button clicked' })"
           >
-            {{ $t('home.buyMeACoffee') }}
+            {{ $t('home.register') }}
             <NIcon v-if="!styleStore.isSmallScreen" :component="Heart" ml-2 />
           </c-button>
         </c-tooltip>
